@@ -3,7 +3,7 @@ import type { NextConfig } from "next";
 
 const repo = "ktp-workshop-1";
 const nextConfig: NextConfig = {
-  /* config options here */
+    /* config options here */
     output: "export",
     basePath: `/${repo}/`,
     assetPrefix: `/${repo}/`,
