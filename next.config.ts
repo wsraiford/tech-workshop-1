@@ -1,22 +1,11 @@
 import type { NextConfig } from "next";
 
+const repo = "tech-workshop-1";
 
-const repo = "ktp-workshop-1";
 const nextConfig: NextConfig = {
-    /* config options here */
-    output: "export",
-    basePath: `/${repo}/`,
-    assetPrefix: `/${repo}/`,
-
-};
-const nextConfig: NextConfig = {
-
     output: "export",
     basePath: `/${repo}`,
-    assetPrefix: `/${repo}`,
-
-
-
-
+    assetPrefix: `/${repo}`
 };
+
 export default nextConfig;
